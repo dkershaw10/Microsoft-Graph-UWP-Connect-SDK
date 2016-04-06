@@ -29,26 +29,25 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Graph/1.0.3-rc": {
+      "Microsoft.Graph/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "[8.0.2, )"
+          "Newtonsoft.Json": "[6.0.2, )"
         },
         "compile": {
-          "lib/portable-net45+netcore50+wpa81+win8/Microsoft.Graph.dll": {}
+          "lib/portable-net45+netcore45+wpa81+win8/Microsoft.Graph.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+netcore50+wpa81+win8/Microsoft.Graph.dll": {}
+          "lib/portable-net45+netcore45+wpa81+win8/Microsoft.Graph.dll": {}
         }
       },
-      "Microsoft.Graph.OAuth2/1.0.1-rc": {
-        "dependencies": {
-          "Microsoft.Graph": "[1.0.3-rc, )"
-        },
+      "Microsoft.Identity.Client/1.0.303282006-alpha": {
         "compile": {
-          "lib/portable-wpa81+win8/Microsoft.Graph.OAuth2.WinStore.dll": {}
+          "lib/netcore45/Microsoft.Identity.Client.dll": {},
+          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {}
         },
         "runtime": {
-          "lib/portable-wpa81+win8/Microsoft.Graph.OAuth2.WinStore.dll": {}
+          "lib/netcore45/Microsoft.Identity.Client.dll": {},
+          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -223,12 +222,12 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.2": {
+      "Newtonsoft.Json/6.0.2": {
         "compile": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -1594,26 +1593,25 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Graph/1.0.3-rc": {
+      "Microsoft.Graph/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "[8.0.2, )"
+          "Newtonsoft.Json": "[6.0.2, )"
         },
         "compile": {
-          "lib/portable-net45+netcore50+wpa81+win8/Microsoft.Graph.dll": {}
+          "lib/portable-net45+netcore45+wpa81+win8/Microsoft.Graph.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+netcore50+wpa81+win8/Microsoft.Graph.dll": {}
+          "lib/portable-net45+netcore45+wpa81+win8/Microsoft.Graph.dll": {}
         }
       },
-      "Microsoft.Graph.OAuth2/1.0.1-rc": {
-        "dependencies": {
-          "Microsoft.Graph": "[1.0.3-rc, )"
-        },
+      "Microsoft.Identity.Client/1.0.303282006-alpha": {
         "compile": {
-          "lib/portable-wpa81+win8/Microsoft.Graph.OAuth2.WinStore.dll": {}
+          "lib/netcore45/Microsoft.Identity.Client.dll": {},
+          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {}
         },
         "runtime": {
-          "lib/portable-wpa81+win8/Microsoft.Graph.OAuth2.WinStore.dll": {}
+          "lib/netcore45/Microsoft.Identity.Client.dll": {},
+          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -1831,12 +1829,12 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.2": {
+      "Newtonsoft.Json/6.0.2": {
         "compile": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -3249,26 +3247,25 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Graph/1.0.3-rc": {
+      "Microsoft.Graph/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "[8.0.2, )"
+          "Newtonsoft.Json": "[6.0.2, )"
         },
         "compile": {
-          "lib/portable-net45+netcore50+wpa81+win8/Microsoft.Graph.dll": {}
+          "lib/portable-net45+netcore45+wpa81+win8/Microsoft.Graph.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+netcore50+wpa81+win8/Microsoft.Graph.dll": {}
+          "lib/portable-net45+netcore45+wpa81+win8/Microsoft.Graph.dll": {}
         }
       },
-      "Microsoft.Graph.OAuth2/1.0.1-rc": {
-        "dependencies": {
-          "Microsoft.Graph": "[1.0.3-rc, )"
-        },
+      "Microsoft.Identity.Client/1.0.303282006-alpha": {
         "compile": {
-          "lib/portable-wpa81+win8/Microsoft.Graph.OAuth2.WinStore.dll": {}
+          "lib/netcore45/Microsoft.Identity.Client.dll": {},
+          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {}
         },
         "runtime": {
-          "lib/portable-wpa81+win8/Microsoft.Graph.OAuth2.WinStore.dll": {}
+          "lib/netcore45/Microsoft.Identity.Client.dll": {},
+          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -3472,12 +3469,12 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.2": {
+      "Newtonsoft.Json/6.0.2": {
         "compile": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -4876,26 +4873,25 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Graph/1.0.3-rc": {
+      "Microsoft.Graph/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "[8.0.2, )"
+          "Newtonsoft.Json": "[6.0.2, )"
         },
         "compile": {
-          "lib/portable-net45+netcore50+wpa81+win8/Microsoft.Graph.dll": {}
+          "lib/portable-net45+netcore45+wpa81+win8/Microsoft.Graph.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+netcore50+wpa81+win8/Microsoft.Graph.dll": {}
+          "lib/portable-net45+netcore45+wpa81+win8/Microsoft.Graph.dll": {}
         }
       },
-      "Microsoft.Graph.OAuth2/1.0.1-rc": {
-        "dependencies": {
-          "Microsoft.Graph": "[1.0.3-rc, )"
-        },
+      "Microsoft.Identity.Client/1.0.303282006-alpha": {
         "compile": {
-          "lib/portable-wpa81+win8/Microsoft.Graph.OAuth2.WinStore.dll": {}
+          "lib/netcore45/Microsoft.Identity.Client.dll": {},
+          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {}
         },
         "runtime": {
-          "lib/portable-wpa81+win8/Microsoft.Graph.OAuth2.WinStore.dll": {}
+          "lib/netcore45/Microsoft.Identity.Client.dll": {},
+          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -5118,12 +5114,12 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.2": {
+      "Newtonsoft.Json/6.0.2": {
         "compile": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -6536,26 +6532,25 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Graph/1.0.3-rc": {
+      "Microsoft.Graph/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "[8.0.2, )"
+          "Newtonsoft.Json": "[6.0.2, )"
         },
         "compile": {
-          "lib/portable-net45+netcore50+wpa81+win8/Microsoft.Graph.dll": {}
+          "lib/portable-net45+netcore45+wpa81+win8/Microsoft.Graph.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+netcore50+wpa81+win8/Microsoft.Graph.dll": {}
+          "lib/portable-net45+netcore45+wpa81+win8/Microsoft.Graph.dll": {}
         }
       },
-      "Microsoft.Graph.OAuth2/1.0.1-rc": {
-        "dependencies": {
-          "Microsoft.Graph": "[1.0.3-rc, )"
-        },
+      "Microsoft.Identity.Client/1.0.303282006-alpha": {
         "compile": {
-          "lib/portable-wpa81+win8/Microsoft.Graph.OAuth2.WinStore.dll": {}
+          "lib/netcore45/Microsoft.Identity.Client.dll": {},
+          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {}
         },
         "runtime": {
-          "lib/portable-wpa81+win8/Microsoft.Graph.OAuth2.WinStore.dll": {}
+          "lib/netcore45/Microsoft.Identity.Client.dll": {},
+          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -6759,12 +6754,12 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.2": {
+      "Newtonsoft.Json/6.0.2": {
         "compile": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -8163,26 +8158,25 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Graph/1.0.3-rc": {
+      "Microsoft.Graph/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "[8.0.2, )"
+          "Newtonsoft.Json": "[6.0.2, )"
         },
         "compile": {
-          "lib/portable-net45+netcore50+wpa81+win8/Microsoft.Graph.dll": {}
+          "lib/portable-net45+netcore45+wpa81+win8/Microsoft.Graph.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+netcore50+wpa81+win8/Microsoft.Graph.dll": {}
+          "lib/portable-net45+netcore45+wpa81+win8/Microsoft.Graph.dll": {}
         }
       },
-      "Microsoft.Graph.OAuth2/1.0.1-rc": {
-        "dependencies": {
-          "Microsoft.Graph": "[1.0.3-rc, )"
-        },
+      "Microsoft.Identity.Client/1.0.303282006-alpha": {
         "compile": {
-          "lib/portable-wpa81+win8/Microsoft.Graph.OAuth2.WinStore.dll": {}
+          "lib/netcore45/Microsoft.Identity.Client.dll": {},
+          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {}
         },
         "runtime": {
-          "lib/portable-wpa81+win8/Microsoft.Graph.OAuth2.WinStore.dll": {}
+          "lib/netcore45/Microsoft.Identity.Client.dll": {},
+          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -8405,12 +8399,12 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.2": {
+      "Newtonsoft.Json/6.0.2": {
         "compile": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -9823,26 +9817,25 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Graph/1.0.3-rc": {
+      "Microsoft.Graph/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "[8.0.2, )"
+          "Newtonsoft.Json": "[6.0.2, )"
         },
         "compile": {
-          "lib/portable-net45+netcore50+wpa81+win8/Microsoft.Graph.dll": {}
+          "lib/portable-net45+netcore45+wpa81+win8/Microsoft.Graph.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+netcore50+wpa81+win8/Microsoft.Graph.dll": {}
+          "lib/portable-net45+netcore45+wpa81+win8/Microsoft.Graph.dll": {}
         }
       },
-      "Microsoft.Graph.OAuth2/1.0.1-rc": {
-        "dependencies": {
-          "Microsoft.Graph": "[1.0.3-rc, )"
-        },
+      "Microsoft.Identity.Client/1.0.303282006-alpha": {
         "compile": {
-          "lib/portable-wpa81+win8/Microsoft.Graph.OAuth2.WinStore.dll": {}
+          "lib/netcore45/Microsoft.Identity.Client.dll": {},
+          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {}
         },
         "runtime": {
-          "lib/portable-wpa81+win8/Microsoft.Graph.OAuth2.WinStore.dll": {}
+          "lib/netcore45/Microsoft.Identity.Client.dll": {},
+          "lib/netcore45/Microsoft.Identity.Client.Platform.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -10046,12 +10039,12 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.2": {
+      "Newtonsoft.Json/6.0.2": {
         "compile": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -11466,26 +11459,47 @@
         "ref/xamarinmac20/_._"
       ]
     },
-    "Microsoft.Graph/1.0.3-rc": {
-      "sha512": "0KjgFxiRw9Oa9/++W4+6aWLRD/HkGsKXUxviJXGPPa8EUF0Vd0a1uoTLL+Vn8ZPewFvaT9+gSu5Tqd/Y/jG9WQ==",
+    "Microsoft.Graph/1.0.0": {
+      "sha512": "Ns73a07WP8GwFmW3PIfhtPytvCmNFZmxEk6+K+io/hJxhmH0mEQ4UlsKiQgOsBKrFVM8FBt08txXuaTEhQjPTw==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
         "_rels/.rels",
-        "lib/portable-net45+netcore50+wpa81+win8/Microsoft.Graph.dll",
+        "lib/portable-net45+netcore45+wpa81+win8/Microsoft.Graph.dll",
         "Microsoft.Graph.nuspec",
-        "package/services/metadata/core-properties/ea9a1b57c6be4aefb99cbfedbe505abd.psmdcp"
+        "package/services/metadata/core-properties/449d8afad7ba42818a57275ae3455eb8.psmdcp"
       ]
     },
-    "Microsoft.Graph.OAuth2/1.0.1-rc": {
-      "sha512": "bdW76cvh+pOVLrzOkqPoViAAqK4tBWR+djhiAyo5tN0xpPKngLeaRk3yP7nlXqS+2gW97sMQ1YJRptmUMFHuyw==",
+    "Microsoft.Identity.Client/1.0.303282006-alpha": {
+      "sha512": "bHFDXYPFfLgGYfE1lUdqQac3IqXw2mkGpbI+2cbYK+dLTPQZJM9SPDSNOF2pRzQn2pjspgleV+DtChWi4ALs1g==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
         "_rels/.rels",
-        "lib/portable-wpa81+win8/Microsoft.Graph.OAuth2.WinStore.dll",
-        "Microsoft.Graph.OAuth2.nuspec",
-        "package/services/metadata/core-properties/95236b31884e4ffc9c88ba0c853eb411.psmdcp"
+        "lib/dnxcore50/Microsoft.Identity.Client.dll",
+        "lib/dnxcore50/Microsoft.Identity.Client.Platform.dll",
+        "lib/dnxcore50/Microsoft.Identity.Client.Platform.xml",
+        "lib/dnxcore50/Microsoft.Identity.Client.xml",
+        "lib/MonoAndroid10/Microsoft.Identity.Client.dll",
+        "lib/MonoAndroid10/Microsoft.Identity.Client.Platform.dll",
+        "lib/MonoAndroid10/Microsoft.Identity.Client.Platform.xml",
+        "lib/MonoAndroid10/Microsoft.Identity.Client.xml",
+        "lib/net45/Microsoft.Identity.Client.dll",
+        "lib/net45/Microsoft.Identity.Client.Platform.dll",
+        "lib/net45/Microsoft.Identity.Client.Platform.xml",
+        "lib/net45/Microsoft.Identity.Client.xml",
+        "lib/netcore45/Microsoft.Identity.Client.dll",
+        "lib/netcore45/Microsoft.Identity.Client.Platform.dll",
+        "lib/netcore45/Microsoft.Identity.Client.Platform.xml",
+        "lib/netcore45/Microsoft.Identity.Client.xml",
+        "lib/portable-net45+win/Microsoft.Identity.Client.dll",
+        "lib/portable-net45+win/Microsoft.Identity.Client.xml",
+        "lib/Xamarin.iOS10/Microsoft.Identity.Client.dll",
+        "lib/Xamarin.iOS10/Microsoft.Identity.Client.Platform.dll",
+        "lib/Xamarin.iOS10/Microsoft.Identity.Client.Platform.xml",
+        "lib/Xamarin.iOS10/Microsoft.Identity.Client.xml",
+        "Microsoft.Identity.Client.nuspec",
+        "package/services/metadata/core-properties/3af73eb2dd86454fb5b526d56865fc6b.psmdcp"
       ]
     },
     "Microsoft.NETCore/5.0.0": {
@@ -12100,8 +12114,8 @@
         "ref/xamarinmac20/_._"
       ]
     },
-    "Newtonsoft.Json/8.0.2": {
-      "sha512": "e5yWmEfu68rmtG431zl9N/7PlNKQDIuiDW5MHlEFAZcecakcxrIGnKqrPAtWNILzK2oNanRB5cD150MYhECK3g==",
+    "Newtonsoft.Json/6.0.2": {
+      "sha512": "dYTDxbpOKlwlWzZLrKOXHI/AoLXdixZM4z3Ez8c5Xgy+bLZty7UWFSoI5B7hqSGntI2GWTqS0Oo8K41Fh+8POw==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -12114,12 +12128,14 @@
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
         "lib/net45/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
-        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "lib/netcore45/Newtonsoft.Json.dll",
+        "lib/netcore45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+monotouch+monoandroid/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+monotouch+monoandroid/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
         "Newtonsoft.Json.nuspec",
-        "package/services/metadata/core-properties/cc8c591d554640789c6a6ef6456f7772.psmdcp",
+        "package/services/metadata/core-properties/d551cad7b44049b99590a7af5d8c3365.psmdcp",
         "tools/install.ps1"
       ]
     },
@@ -14821,8 +14837,8 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.Graph >= 1.0.3-rc",
-      "Microsoft.Graph.OAuth2 >= 1.0.1-rc",
+      "Microsoft.Graph >= 1.0.0",
+      "Microsoft.Identity.Client >= 1.0.303282006-alpha",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0"
     ],
     "UAP,Version=v10.0": []

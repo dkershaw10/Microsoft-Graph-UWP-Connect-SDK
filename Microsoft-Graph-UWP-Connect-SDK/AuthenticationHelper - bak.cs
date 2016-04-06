@@ -58,7 +58,6 @@ namespace Microsoft_Graph_UWP_Connect_SDK
         public static void SignOut()
         {
             //Clear stored values from last authentication.
-            graphClient.Dispose();
             graphClient = null;
 
         }

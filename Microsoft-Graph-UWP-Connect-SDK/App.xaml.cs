@@ -17,6 +17,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Microsoft.Identity.Client;
 
 namespace Microsoft_Graph_UWP_Connect_SDK
 {
@@ -25,6 +26,28 @@ namespace Microsoft_Graph_UWP_Connect_SDK
     /// </summary>
     sealed partial class App : Application
     {
+        public static PublicClientApplication PCApplication { get; set; }
+        public static string clientId = "e1a5e88e-385c-4e37-9954-8d356fc3dd9b";
+        public static string[] initialScope =
+            {
+            "User.Read",
+            "Mail.Send",
+            "Contacts.Read",
+            "Files.Read"
+        };
+        public static User currentUser { get; set; }
+
+        public class FileItem
+        {
+            public String name { get; set; }
+            public String webUrl { get; set; }
+        }
+
+        public class ContactItem
+        {
+            public String name { get; set; }
+            public String address { get; set; }
+        }
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
@@ -33,6 +56,7 @@ namespace Microsoft_Graph_UWP_Connect_SDK
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            PCApplication = new PublicClientApplication(clientId);
         }
 
         /// <summary>

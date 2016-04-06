@@ -26,19 +26,37 @@ See LICENSE in the project root for license information. -->
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <ProgressBar x:Name="ProgressBar" Visibility="Collapsed" Grid.Row="0" Grid.ColumnSpan="3" IsIndeterminate="True" Margin="0,10"/>
-        <TextBlock Grid.Row="1" Grid.Column="1"  x:Name="InfoText" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="{ThemeResource TextStyleLargeFontSize}" TextWrapping="Wrap" Width="750" Margin="0,10"/>
-        <Button Grid.Row="2" Grid.Column="1" x:Name="ConnectButton"  Content="connect"  Click="ConnectButton_Click" Margin="200,20,0,20"/>
-        <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" Margin="0,10">
-            <TextBox x:Name="EmailAddressBox" AcceptsReturn="False" Height="{Binding  ActualHeight, ElementName=MailButton}" IsEnabled="False" Width="380"/>
-            <Button  x:Name="MailButton" Content="send mail" IsEnabled="False" HorizontalAlignment="Center" Click="MailButton_Click" Margin="21,0,0,0"/>
+        <Button Grid.Row="1" Grid.Column="1" x:Name="ConnectButton" Click="ConnectButton_Click" Margin="0,0,10,0" Height="50" Background="White">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Assets\Microsoft-Windows-Logo-2-psd87390.png" Width="48" />
+                <TextBlock Text="Sign in with Microsoft"  Foreground="Black" FontSize="20"
+                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </StackPanel>
+        </Button>
+        <TextBlock Grid.Row="2" Grid.Column="1"  x:Name="InfoText" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="{ThemeResource TextStyleLargeFontSize}" TextWrapping="Wrap" Width="550" Margin="0,10"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="3"  Grid.Column="1" HorizontalAlignment="Left" Margin="0,10">
+            <TextBlock x:Name="ContactText" Visibility="Collapsed" Text="Send mail to:"  Foreground="Black"
+                   HorizontalAlignment="Left" VerticalAlignment="Center" Width="110" FontSize="18"/>
+            <ComboBox x:Name="ContactCombo" Visibility="Collapsed" HorizontalAlignment="Left" 
+                      Margin="0,0,0,0" VerticalAlignment="Center" Width="250" ItemsSource="{x:Bind contactItems}"  
+                      DisplayMemberPath="name" PlaceholderText="Pick a contact..."/>
         </StackPanel>
-        <TextBlock Grid.Row="4" Grid.Column="1" x:Name="MailStatus" HorizontalAlignment="Left"  TextWrapping="Wrap"  Margin="0,10"/>
-
+        <StackPanel Orientation="Horizontal" Grid.Row="4"  Grid.Column="1" HorizontalAlignment="Left" Margin="0,10">
+            <TextBlock x:Name="AttachText" Visibility="Collapsed" Text="Attach:"  Foreground="Black"
+                   HorizontalAlignment="Left" VerticalAlignment="Center" Width="110" FontSize="18"/>
+            <ComboBox x:Name="FileCombo" Visibility="Collapsed" HorizontalAlignment="Left" Margin="0,0,0,0" 
+                  VerticalAlignment="Center" Width="250" ItemsSource="{x:Bind fileItems}"  
+                  DisplayMemberPath="name" PlaceholderText="Pick a file from your OneDrive..."/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" Margin="0,10">
+            <Button  x:Name="MailButton" Visibility="Collapsed" Content="Send mail" IsEnabled="False" HorizontalAlignment="Center" Click="MailButton_Click" Margin="0,20,0,0"/>
+        </StackPanel>
+        <TextBlock Grid.Row="6" Grid.Column="1" x:Name="MailStatus" HorizontalAlignment="Left"  TextWrapping="Wrap"  Margin="0,10"/>
     </Grid>
     <Page.TopAppBar>
         <CommandBar >
             <CommandBar.Content>
-                <TextBlock Grid.Row="0" Grid.Column="1" x:Name="appTitle" Text="Microsoft Graph Connect Sample"
+                <TextBlock Grid.Row="0" Grid.Column="1" x:Name="appTitle" Text="Microsoft Graph Sample"
                        HorizontalAlignment="Center" 
                        VerticalAlignment="Center" 
                        TextWrapping="Wrap"

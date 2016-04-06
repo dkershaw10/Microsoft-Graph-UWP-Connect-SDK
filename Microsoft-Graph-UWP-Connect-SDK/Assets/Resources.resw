@@ -122,7 +122,7 @@
 We couldn't connect to Office 365. Check your debug output for errors.</value>
   </data>
   <data name="ConnectPrompt" xml:space="preserve">
-    <value>Tap the following button to connect to your personal or work or school account.</value>
+    <value>Click to connect to your personal, work or school account.</value>
   </data>
   <data name="MailContents" xml:space="preserve">
     <value>&lt;html&gt;&lt;head&gt;
@@ -131,15 +131,9 @@ We couldn't connect to Office 365. Check your debug output for errors.</value>
 &lt;/head&gt;
 &lt;body style=\'font-family:calibri\'&gt;
 &lt;h2&gt;Hello, {0}!&lt;/h2&gt;
-&lt;p&gt;This is a message from the Microsoft Graph Connect sample. You are well on your way to incorporating Office 365 and Outlook.com capabilities into your apps through the Microsoft Graph.
+&lt;p&gt;This is a message from the Microsoft Graph sample. You are well on your way to incorporating Office 365, Outlook.com and OneDrive capabilities into your apps through the power of the Microsoft Graph.
 &lt;/p&gt;
-&lt;p&gt;What&amp;#8217;s next?&lt;/p&gt;
-&lt;p&gt;You can use the classes in the Visual Studio project to integrate Office 365 and Outlook.com capabilities into your own apps through the Microsoft Graph.&lt;/p&gt;
-&lt;h2&gt;Give us feedback&lt;/h2&gt;
-&lt;p&gt;We hope you found this sample useful. We&amp;#8217;d love to hear from you, so drop us an email at
-&lt;a href='mailto:docthis@microsoft.com?subject=Feedback%20on%20the%20Office%20365%20Connect%20sample'&gt;
-docthis@microsoft.com&lt;/a&gt; with your comments or &lt;a href=\'https://github.com/OfficeDev/Microsoft-Graph-UWP-Connect-SDK/issues\'&gt;
-log an issue&lt;/a&gt; on our repository. &lt;/p&gt;
+&lt;p&gt;And here's an attachment link to more information in OneDrive &lt;a href={1}&gt; here.&lt;/a&gt;
 &lt;p&gt;For more details on what else you can do with the Office 365 services in your Windows app, start with the
 &lt;a href='http://dev.office.com/getting-started'&gt;Getting started&lt;/a&gt; page on dev.office.com.
 &lt;/p&gt;
@@ -175,9 +169,9 @@ We couldn't send an mail. Check your debug output for errors.</value>
     <value>Oops - It looks like this app is not registered with the v2.0 authentication endpoint, because we don't see a client id in App.xaml.  To run this sample, register it in the App Registration Portal. See Readme for more info.</value>
   </data>
   <data name="SendMailPrompt" xml:space="preserve">
-    <value>You're now connected to Microsoft Graph. Tap "send mail" to send a message from your account using Microsoft Graph.</value>
+    <value>Send a mail to one of your contacts, using Microsoft Graph.</value>
   </data>
   <data name="SendMailSuccess" xml:space="preserve">
-    <value>We successfully  sent an email to {0} !</value>
+    <value>We successfully sent an email to {0} !</value>
   </data>
 </root>
